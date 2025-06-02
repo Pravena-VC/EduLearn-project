@@ -126,7 +126,7 @@ class OpenRouterApiService {
           },
         ],
       });
-
+//@ts-ignore
       return completion.choices[0].message.content;
     } catch (error) {
       console.error("Error generating learning path:", error);
